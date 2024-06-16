@@ -2,6 +2,7 @@
 
 LifeLens is an app designed for users to capture and reflect on personal moments through media and AI-generated introspective questions. It provides a space for personal growth and self-discovery by combining technology and introspection. The app allows users to upload photos and videos, generate introspective questions based on AI prompts, and reflect on their entries by adding descriptions.
 
+# About
 The front-end of LifeLens is built using React Native, while the back-end leverages Appwrite for robust data management and user authentication. For AI processing, Python Flask is used to generate introspective questions, and Node.js serves API requests. Media selection is made seamless through the integration of expo-image-picker and expo-document-picker, allowing users to select images and videos from their devices.
 
 User authentication and session management: During user registration, a new account is created in Appwrite, and the user is automatically signed in. A document containing the user's details (email, username, avatar) is created in the users' collection. The signIn function checks for an existing session and creates a new one if none exists. Users can log out by deleting the current session through the signOut function.
