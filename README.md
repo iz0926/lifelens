@@ -1,4 +1,4 @@
-# lifelens
+# lifelens ![Alt text](logo.png)
 
 LifeLens is an app designed for users to capture and reflect on personal moments through media and AI-generated introspective questions. It provides a space for personal growth and self-discovery by combining technology and introspection. The app allows users to upload photos and videos, generate introspective questions based on AI prompts, and reflect on their entries by adding descriptions.
 
