@@ -4,8 +4,9 @@ from transformers import T5Tokenizer, T5ForConditionalGeneration
 app = Flask(__name__)
 
 # load the pre-trained model and tokenizer
+# better results from adding legacy = false
 model_name = 'google/flan-t5-base'
-tokenizer = T5Tokenizer.from_pretrained(model_name)
+tokenizer = T5Tokenizer.from_pretrained(model_name, legacy = False)
 model = T5ForConditionalGeneration.from_pretrained(model_name)
 
 @app.route('/getQuestion', methods=['POST'])
